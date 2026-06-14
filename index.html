@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Villa Boga — Restaurant in Villa Boga, 7 Rue De La Tempête, Casablanca"/>
+  <title>Villa Boga | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<main class="page-content">
+  <nav class="fixed top-0 w-full z-50 px-4 md:px-8 py-3 flex flex-wrap justify-between items-center gap-3">
+    <div class="flex items-center gap-3 min-w-0">
+      <a href="#hero" class="flex items-center gap-3 min-w-0" style="text-decoration:none">
+        <img src="assets/logo.jpg" alt="Villa Boga" class="site-logo" onerror="this.onerror=null;this.src='assets/logo.png'"/>
+        <span class="logo-gradient font-bold text-lg truncate">Villa Boga</span>
+      </a>
+    </div>
+    <div class="flex flex-wrap items-center gap-2 md:gap-4">
+      <a href="#hero" class="nav-link nav-link-active" data-i18n="pro.navHome">Home</a><a href="#about" class="nav-link" data-i18n="pro.navAbout">About</a><a href="#services" class="nav-link" data-i18n="pro.navMenu">Menu &amp; Services</a><a href="#gallery" class="nav-link" data-i18n="pro.navGallery">Gallery</a><a href="#contact" class="nav-link" data-i18n="pro.navContact">Contact</a>
+      <div class="dz-lang-switch" role="group" aria-label="Language">
+        <button type="button" class="dz-lang-btn" data-lang="ar" title="الدارجة">دارجة</button>
+        <button type="button" class="dz-lang-btn" data-lang="fr">FR</button>
+        <button type="button" class="dz-lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+  <section id="hero" class="hero-bg" style="background-image:url('assets/hero-bg.jpg')">
+    <div class="hero-inner">
+      <span class="hero-badge" data-i18n="pro.heroBadge">Villa Boga · Restaurant</span>
+      <h1 class="hero-title" data-i18n="hero.title">Villa Boga</h1>
+      <p class="hero-sub" data-i18n="hero.subtitle">Homemade flavors, warm atmosphere, and hospitality that feels like family.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/212739999999" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n="pro.bookTable">Book a Table</a>
+        <a href="tel:+212 739 99 99 99" class="btn-outline dz-ltr-value" dir="ltr">+212 739 99 99 99</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="assets/about-photo.jpg" alt="Villa Boga" class="w-full min-h-[320px] object-cover" onerror="this.onerror=null;this.src='assets/hero-bg.jpg'"/>
+      </div>
+      <div>
+        <p class="section-kicker" data-i18n="client.greeting">Welcome</p>
+        <h2 class="section-title" data-i18n="pro.aboutHeading">A restaurant you can trust</h2>
+        <p class="text-lg leading-relaxed" style="color:rgba(255,255,255,.78)" dir="auto" data-i18n="hero.about">السلام عليكم، Villa Boga فرحانين باستقبالك. Restaurant محترفين ف Villa Boga, 7 Rue De La Tempête, Casablanca — الفريق كيسمع ليك و كيجاوب بسرعة ف واتساب.</p>
+        <p class="mt-4" style="color:rgba(255,255,255,.65)" data-i18n="pro.aboutEnglish">Great food, friendly service, and a cozy place to enjoy lunch or dinner with friends and family.</p>
+        <p class="mt-4" style="color:rgba(255,255,255,.55);font-size:.92rem">Villa Boga, 7 Rue De La Tempête, Casablanca · +212 739 99 99 99</p>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="section">
+    
+    <div class="section-head"><p class="section-kicker">Menu</p><h2 class="section-title">Our Menu</h2></div>
+    <div class="review-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))"><div class="service-card menu-card"><h3>Signature Service</h3><p dir="auto">Our most requested premium offering.</p></div><div class="service-card menu-card"><h3>Express Package</h3><p dir="auto">Fast turnaround without compromising quality.</p></div><div class="service-card menu-card"><h3>VIP Experience</h3><p dir="auto">Full-service treatment for discerning clients.</p></div></div>
+  <section id="gallery" class="section">
+    <div class="section-head"><p class="section-kicker">Gallery</p><h2 class="section-title">Our Shop</h2></div>
+    <div class="gallery-grid"><div class="gallery-item"><img src="assets/gallery/gallery_1.jpg" alt="Gallery 1" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='assets/hero-bg.jpg'"/></div><div class="gallery-item"><img src="assets/gallery/gallery_2.jpg" alt="Gallery 2" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='assets/hero-bg.jpg'"/></div><div class="gallery-item"><img src="assets/gallery/gallery_3.jpg" alt="Gallery 3" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='assets/hero-bg.jpg'"/></div><div class="gallery-item"><img src="assets/gallery/gallery_4.jpg" alt="Gallery 4" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='assets/hero-bg.jpg'"/></div></div>
+  </section>
+  <section id="reviews" class="section">
+    <div class="section-head"><p class="section-kicker">Reviews</p><h2 class="section-title">Google Reviews</h2></div>
+    
+    <div class="review-grid">
+      <article class="review-card"><div style="color:var(--accent);margin-bottom:.75rem">★★★★★</div>
+        <p style="margin:0 0 1rem;line-height:1.7">&ldquo;تبارك الله! Villa Boga زوين بزاف.&rdquo;</p><strong>Karim B.</strong></article>
+      <article class="review-card"><div style="color:var(--accent);margin-bottom:.75rem">★★★★★</div>
+        <p style="margin:0 0 1rem;line-height:1.7">&ldquo;استقبال ف حال العائلة. أحسن Villa Boga ف Casablanca.&rdquo;</p><strong>Salma E.</strong></article>
+      <article class="review-card"><div style="color:var(--accent);margin-bottom:.75rem">★★★★★</div>
+        <p style="margin:0 0 1rem;line-height:1.7">&ldquo;Villa Boga كيتعاملو معاك باحترام. نصح بيهم بزاف.&rdquo;</p><strong>Youssef M.</strong></article>
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <div class="contact-box">
+      <p class="section-kicker">Contact</p>
+      <h2 class="section-title" style="font-size:2rem">Visit Villa Boga</h2>
+      <p style="color:rgba(255,255,255,.7);margin-bottom:.5rem">Villa Boga, 7 Rue De La Tempête, Casablanca</p>
+      <p class="text-xl font-semibold mb-2 dz-ltr-value" dir="ltr"><a href="tel:+212 739 99 99 99" style="color:#fff;text-decoration:none">+212 739 99 99 99</a></p>
+      <p style="color:rgba(255,255,255,.55);margin-bottom:1.5rem;font-size:.9rem">Mon–Fri: 9:00 AM – 8:00 PM<br/>Sat–Sun: 10:00 AM – 6:00 PM</p>
+      <a href="https://wa.me/212739999999" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n="pro.bookWhatsApp">Book on WhatsApp</a>
+    </div>
+  </section>
+  <footer class="site-footer">&copy; Villa Boga · Casablanca</footer>
+  <a href="https://wa.me/212739999999" target="_blank" rel="noopener noreferrer" class="wa-fab" aria-label="WhatsApp">&#128172;</a>
+</main>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
