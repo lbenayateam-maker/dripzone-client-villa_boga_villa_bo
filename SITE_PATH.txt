@@ -1,0 +1,4 @@
+Dripzone Pro Template v2
+Folder: C:\Users\Administrator\Documents\Saas service website\build\Release\websites\villa_boga_villa_bo.__building
+Company: Villa Boga
+Template: moroccan-rfissa-chefchaouen-physics
